@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+}
+
+/* === Set up Cover === */
+
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70%;
+  background-size: cover;
+  height: 100vh;
+  color: #444349;
+  font-family: 'Great Vibes', serif;
+  text-align: center;
+  display: table;
+  width: 100vw;
+}
+
+/* === Basic Font Families === */
+
+h1 {
+  font-family: 'Great vibes', 'Times New Roman';
+}
+
+h2 {
+  font-family: 'Libre Baskerville', 'Times New Roman';
+}
+
+p {
+  font-family: Muli;
+}
+
+/* === Posisioning wrapper div === */
+
+
+.wrapper {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* === Tagline Style === */
+
+.tagline {
+  font-family: 'Libre Baskerville', 'Times New Roman';
+  color: white;
+  font-size: 4vw;
+  letter-spacing: .5vw;
+  padding: 1.5vw;
+}
+
+.border {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  margin: 0px;
+  border-width: 1px;
+  border-bottom: 1px white solid;
+  width: 60%;
+}
+
+.package {
+  position: relative;
+  display: table-cell;
+  background-color: rgba(0,0,0,.6);
+  text-align: center;
+  vertical-align: middle;
+  width: 100vw;
+  height: auto;
+  padding: 1.5vw;
+}
+
+/* === Headline Style === */
+
+.headline {
+  font-size: 12vw;
+  margin-top: 3vw;
+  padding: 1.5vw;
+  color: #d2ba87;
+  padding: 1.5vw;
+}
+
+/* === Date Style */
+
+.date {
+  color: white;
+  font-size: 4vw;
+  padding: 1vw;
+  letter-spacing: .5vw;
+}
+
+.date:before,
+.date:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
+}
+
+.date:before {
+  right: 1.5vw;
+  margin-left: -50%;
+}
+
+.date:after {
+  left: 1.5vw;
+  margin-right: -50%;
+}
+
+/* === Formatting, Positioning Main Body === */
+
+main {
+  color: #444349;
+}
+
+.main-title {
+  font-size: 12vw;
+  padding: 4vw;
+  text-align: center;
+}
+
+.title {
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+  padding: 4.5vw;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15vw;
+}
+
+.paragraph {
+  text-align: center;
+  padding: 3vw;
+}
+
+/* === Location Box Style === */
+
+.box-location {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  padding: 6vw;
+}
+
+.border-between {
+  margin: auto;
+  width: 50%;
+  border-width: 1px;
+  border-bottom: 2px #594a4e solid;
+  width: 30%;
+  text-align: center;
+}
+
+/* === Format Program === */
+
+.program {
+  background-color: #594a4e;
+  background-size: cover;
+  display: table;
+  color: #d2ba87;
+  width: 100vw;
+}
+
+.tagline-program {
+  font-style: italic;
+  padding: 1.5vw;
+  font-family: Muli;
+  font-size: 3.5vw;
+}
+
+.time {
+  font-family: Muli;
+  padding: 4.5vw;
+  font-size: 3.5vw;
+}
+
+/* === Format Gift === */
+
+.gift {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  display: table;
+}
+
+.tagline-gift {
+  font-family: 'Libre Baskerville';
+  text-align: center;
+  padding: 3vw;
+  font-size: 3.5vw;
+}
+
+.para-gift {
+  text-align: center;
+  padding: 3.5vw;
+  font-size: 3vw;
+}
+
+/* === Q&A Styles === */
+
+.qanda {
+  background-color: #594a4e;
+  background-size: cover;
+  display: table;
+  color: #d2ba87;
+}
+
+.q {
+  font-weight: bold;
+  padding: 1vw;
+  font-size: 2.8vw;
+}
+
+.a {
+  padding: 1vw;
+  font-size: 2.8vw;
+}
+
+/* === Links, Emails, Phones Effects === */
+
+.link, .email, .phone {
+  color: #bd806e;
+}
+
+.link:hover, .email:hover, .phone:hover {
+  color: #eda087;
+}
+
+/* === Formatting Contact === */
+
+.box-contact {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  display: table;
+}
+
+.contact {
+  font-family: 'Libre Baskerville', 'Times New Roman';
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 6vw;
+  padding: 1.5vw;
+}
+
+.style-contact {
+  text-align: center;
+  margin-bottom: 6vw;
+  padding: 1.5vw;
+}
+
+/* === Footer: Format, Position and Typography === */
+
+footer {
+  background: url('http://i.imgur.com/f4jGhSF.png') repeat center;
+  display: table;
+  width: 100vw;
+  height: 6vw;
+  text-align: center;
+  padding: 1.5vw;
+  color: rgba(220,220,220,.8);
+  font-family: Muli;
+  font-size: 3vw;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* === Media Queryk === */
+
+@media screen and (min-width: 768px) {
+  .package {
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+  }
+  
+  .tagline {
+    font-variant-caps: all-small-caps;
+    font-size: 2.4vw;
+    letter-spacing: .15vw;
+    padding: 0.5vw;
+  }
+  
+  .border {
+  width: 40%;
+}
+  
+  .headline {
+  font-size: 8vw;
+  }
+  
+   .date {
+  font-size: 1.5vw;
+  }
+  
+  .box-location {
+    background-repeat: round;
+  }
+
+  .box-ceremony,
+  .box-photos,
+  .box-party {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+    vertical-align: text-top;
+  }
+  
+  .border-between {
+    display: none;
+  }
+  
+  .title {
+  font-size: 2.5vw;
+  }
+  
+  .main-title {
+  font-size: 6vw;
+  }
+  
+  .gift {
+    background-repeat: round;
+  }
+  
+  .program {
+  display: inline-block;
+  color: #d2ba87;
+  width: 100vw;
+}
+
+.tagline-program {
+  font-style: italic;
+  padding: 1.5vw;
+  margin-left: 30vw;
+  font-family: Muli;
+  font-size: 2vw;
+}
+
+.time {
+  font-family: Muli;
+  padding: 4.5vw;
+  margin-left: 30vw;
+  font-size: 2vw;
+}
+  
+  .tagline-gift {
+  font-size: 2.5vw;
+}
+
+.para-gift {
+  text-align: center;
+  padding: 3.5vw;
+  font-size: 2vw;
+}
+  
+  .qanda {
+  display: inline-block;
+}
+  
+  .box-left,
+  .box-center,
+  .box-right {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+    vertical-align: text-top;
+  }
+  
+  #left {
+    text-align: left;
+  }
+
+.q {
+  font-weight: bold;
+  padding: 1vw;
+  font-size: 2vw;
+}
+
+.a {
+  padding: 1vw;
+  font-size: 2vw;
+}
+  
+   .box-contact {
+    background-repeat: round;
+  }
+  
+  footer {
+  height: 5vw;
+  text-align: center;
+  font-size: 1.2vw;
+  padding: 2vw;
+}
+
+}
